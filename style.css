@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'police_CV/open_sanssemibold';
+    src: url('police_CV/OpenSans-Semibold-webfont.eot');
+    src: url('police_CV/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police_CV/OpenSans-Semibold-webfont.woff2') format('woff2'),
+         url('police_CV/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('police_CV/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('police_CV/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    background-image: url('greyzz.png');
+  }
+
+*
+{
+    font-family: 'open_sanssemibold', 'Arial', sans-serif;
+}
+
+h1, h1 + p
+{
+    text-align: left;
+    margin-left: 5%;
+}
+
+.bordure_st
+{
+	border-bottom: 2px solid #47BD6C;
+}
+
+.prenom
+{
+	color: #47BD6C;
+}
+
+ul 
+{
+	list-style: none
+}
+
+li::before 
+{
+	content: "•"; color: #47BD6C
+}
+
+li::before 
+{
+	content: "•"; color: #47BD6C;
+  	display: inline-block; width: 1em;
+  	margin-left: -1em
+}
+
+li
+{
+	color: black;
+	margin:2em;
+}
+
+b
+{
+	font-size: 80%;
+}
+
+img
+{
+    float: top-left;
+    margin-left: 5%;
+    border: 1px solid black;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px black;
+}
+
+.Photo p
+{
+	text-align: center;
+}
+
+h2
+{
+    color: black;
+    border-bottom: 2px solid green;
+    margin-left: 5%;
+}
+
+h2 + a
+{
+	border: none;
+	color: #47BD6C;
+}
+
+.Contact p
+{
+	margin-left: 5%;
+}
+
+.Apropos p
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: justify;
+}
+
+h3
+{
+	background-color: black;
+	text-align: center;
+	color: #47BD6C;
+}
+
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-right: 5%;
+}
+
+.expérience
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.formation
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.dates2 li
+{
+	list-style: none;
+}
+
+#contenu
+{
+    display: flex;
+    flex-direction: top;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.element1:nth-child(1)
+{
+	background-color: #47BD6C;
+	flex:1;
+}
+
+.element2:nth-child(2)
+{
+	flex:2;
+}
+
+i.fas
+{
+	color: #47BD6C;
+}
+
+i.fa-book
+{
+	color: black;
+	font-size: 2em;
+}
+
+i.fa-music
+{
+	color: black;
+	font-size: 2em;
+	margin-left: 10%;
+}
+
+i.fa-swimmer
+{
+	color: black;
+	font-size: 2em;
+	margin-left: 10%;
+}
+
+.Loisirs p
+{
+	text-align: center;
+}
+
+.expérience
+{
+	display: flex;
+}
+.i1 :nth-child(1)
+{
+	order: 1;
+	flex: 1;
+}
+.i2 :nth-child(2)
+{
+	order: 2;
+	flex: 1;
+}
+.i3 :nth-child(3)
+{
+	order: 3;
+	flex: 1;
+}
+.i4 :nth-child(1)
+{
+	order: 1;
+	flex: 1;
+}
+.i5 :nth-child(2)
+{
+	order: 2;
+	flex: 1;
+}
+.i6 :nth-child(3)
+{
+	order: 3;
+	flex: 1;
+}
+
+@media screen and (max-width: 1024px)
+{
+
+section
+{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+}
+
+#contenu
+{
+    width: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#Photo
+{
+	margin-left: 40%;
+}
+}
