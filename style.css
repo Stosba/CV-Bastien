@@ -21,6 +21,11 @@ body
     font-family: 'open_sanssemibold', 'Arial', sans-serif;
 }
 
+.titre
+{
+	margin: 10% 5% 10%
+}
+
 h1, h1 + p
 {
     text-align: left;
@@ -82,7 +87,7 @@ img
 h2
 {
     color: black;
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid #47BD6C;
     margin-left: 5%;
 }
 
@@ -104,6 +109,11 @@ h2 + a
 	text-align: justify;
 }
 
+.Loisirs p
+{
+	text-align: center;
+}
+
 h3
 {
 	background-color: black;
@@ -122,18 +132,57 @@ section
 .expérience
 {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
-.formation
+.dates1
+{
+	display: flex;
+	flex-direction: row; 
+}
+
+.dates2
 {
 	display: flex;
 	flex-direction: row;
 }
 
-.dates2 li
+.dates3
 {
-	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+.dates4
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.dates12
+{
+	margin-top: 1em;
+}
+
+.dates22
+{
+	margin-top: 1em;
+}
+
+.dates32
+{
+	margin-top: 1em;
+}
+
+.dates42
+{
+	margin-top: 1em;
+}
+
+.formation
+{
+	display: flex;
+	flex-direction: column;
 }
 
 #contenu
@@ -180,44 +229,9 @@ i.fa-swimmer
 	margin-left: 10%;
 }
 
-.Loisirs p
-{
-	text-align: center;
-}
-
 .expérience
 {
 	display: flex;
-}
-.i1 :nth-child(1)
-{
-	order: 1;
-	flex: 1;
-}
-.i2 :nth-child(2)
-{
-	order: 2;
-	flex: 1;
-}
-.i3 :nth-child(3)
-{
-	order: 3;
-	flex: 1;
-}
-.i4 :nth-child(1)
-{
-	order: 1;
-	flex: 1;
-}
-.i5 :nth-child(2)
-{
-	order: 2;
-	flex: 1;
-}
-.i6 :nth-child(3)
-{
-	order: 3;
-	flex: 1;
 }
 
 @media screen and (max-width: 1024px)
@@ -241,5 +255,4 @@ section
 #Photo
 {
 	margin-left: 40%;
-}
 }
