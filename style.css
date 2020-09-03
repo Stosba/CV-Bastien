@@ -32,6 +32,7 @@ h1, h1 + p
     margin-left: 5%;
 }
 
+
 .bordure_st
 {
 	border-bottom: 2px solid #47BD6C;
@@ -65,10 +66,6 @@ li
 	margin:2em;
 }
 
-b
-{
-	font-size: 80%;
-}
 
 img
 {
@@ -99,19 +96,29 @@ h2 + a
 
 .Contact p
 {
-	margin-left: 5%;
+	margin-left: 10%;
 }
 
 .Apropos p
 {
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
 	text-align: justify;
 }
 
 .Loisirs p
 {
 	text-align: center;
+}
+
+.Loisirs
+{
+	margin-top: 130%;
+}
+
+.dates11 li
+{
+   list-style-image: url(puce.png);
 }
 
 h3
@@ -183,6 +190,17 @@ section
 {
 	display: flex;
 	flex-direction: column;
+}
+
+.Recommandations
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 10%;
+}
+.Reco2
+{
+	margin-left: 35%;
 }
 
 #contenu
