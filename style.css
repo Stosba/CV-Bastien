@@ -1,24 +1,14 @@
-@font-face {
-    font-family: 'police_CV/open_sanssemibold';
-    src: url('police_CV/OpenSans-Semibold-webfont.eot');
-    src: url('police_CV/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('police_CV/OpenSans-Semibold-webfont.woff2') format('woff2'),
-         url('police_CV/OpenSans-Semibold-webfont.woff') format('woff'),
-         url('police_CV/OpenSans-Semibold-webfont.ttf') format('truetype'),
-         url('police_CV/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 body
 {
     background-image: url('greyzz.png');
-  }
+    padding: 5em;
+ }
 
 *
 {
-    font-family: 'open_sanssemibold', 'Arial', sans-serif;
+    font-family: 'Ubuntu', 'Arial', sans-serif;
+    line-height: 1.5;
 }
 
 .titre
@@ -32,10 +22,24 @@ h1, h1 + p
     margin-left: 5%;
 }
 
+h1
+{
+	font-size: 4em;
+}
+
+h1 + p
+{
+	font-size: 2em;
+}
 
 .bordure_st
 {
 	border-bottom: 2px solid #47BD6C;
+}
+
+p
+{
+	text-align: justify;
 }
 
 .prenom
@@ -81,6 +85,11 @@ img
 	text-align: center;
 }
 
+.Photo
+{
+	margin: 5em;
+}
+
 h2
 {
     color: black;
@@ -97,6 +106,12 @@ h2 + a
 .Contact p
 {
 	margin-left: 10%;
+	overflow: auto;
+}
+
+.Contact
+{
+	margin-top: 7em;
 }
 
 .Apropos p
@@ -113,12 +128,22 @@ h2 + a
 
 .Loisirs
 {
-	margin-top: 130%;
+	margin-top: 95%;
 }
 
 .dates11 li
 {
    list-style-image: url(puce.png);
+}
+
+.dates11, .dates21, .dates31, .dates41
+{
+	width: 20em;
+}
+.dates12, .dates22, .dates32, .dates42
+{
+	width: 50em;
+	margin-top: 1em;
 }
 
 h3
@@ -142,48 +167,10 @@ section
 	flex-direction: column;
 }
 
-.dates1
+.dates1, .dates2, .dates3, .dates4
 {
 	display: flex;
 	flex-direction: row; 
-}
-
-.dates2
-{
-	display: flex;
-	flex-direction: row;
-}
-
-.dates3
-{
-	display: flex;
-	flex-direction: row;
-}
-
-.dates4
-{
-	display: flex;
-	flex-direction: row;
-}
-
-.dates12
-{
-	margin-top: 1em;
-}
-
-.dates22
-{
-	margin-top: 1em;
-}
-
-.dates32
-{
-	margin-top: 1em;
-}
-
-.dates42
-{
-	margin-top: 1em;
 }
 
 .formation
@@ -254,6 +241,11 @@ i.fa-swimmer
 
 @media screen and (max-width: 1024px)
 {
+
+body
+{
+	padding: 0%;
+}
 
 section
 {
