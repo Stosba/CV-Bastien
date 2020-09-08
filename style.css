@@ -1,8 +1,8 @@
-
 body
 {
-    background-image: url('greyzz.png');
-    padding: 5em;
+    background-image: url('Images/greyzz.png');
+    width: 940px;
+    border: 1px solid #47BD6C;
  }
 
 *
@@ -11,9 +11,17 @@ body
     line-height: 1.5;
 }
 
+/*En-tête*/
+
 .titre
 {
-	margin: 10% 5% 10%
+	width: 65%; 
+}
+
+header
+{
+	display: flex;
+	flex-direction: row;
 }
 
 h1, h1 + p
@@ -24,12 +32,13 @@ h1, h1 + p
 
 h1
 {
-	font-size: 4em;
+	font-size: 3em;
+	margin-top: 15%;
 }
 
 h1 + p
 {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .bordure_st
@@ -45,6 +54,117 @@ p
 .prenom
 {
 	color: #47BD6C;
+}
+
+img
+{
+    margin: 25%;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.Photo
+{
+	background-color: #47BD6C;
+	width: 35%;
+}
+
+/*Corps de page*/
+
+#contenu
+{
+    display: flex;
+    flex-direction: top;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+/*aside*/
+
+aside section:nth-child(2) 
+{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+aside
+{
+	background-color: #47BD6C;
+	width: 35%;
+}
+
+.Contact p
+{
+	margin-left: 10%;
+	overflow: auto;
+}
+
+.Apropos p
+{
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: justify;
+}
+
+.Loisirs
+{
+	margin-top: 1%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+h3
+{
+	background-color: black;
+	text-align: center;
+	color: #47BD6C;
+}
+
+.icon 
+{
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+i.fa-book
+{
+	color: black;
+	font-size: 2em;
+}
+
+i.fa-music
+{
+	color: black;
+	font-size: 2em;
+}
+
+i.fa-swimmer
+{
+	color: black;
+	font-size: 2em;
+}
+
+
+/*main*/
+
+main
+{
+	width: 63%;
+	padding-right: 2%;
 }
 
 ul 
@@ -70,26 +190,6 @@ li
 	margin:2em;
 }
 
-
-img
-{
-    float: top-left;
-    margin-left: 5%;
-    border: 1px solid black;
-    border-radius: 100%;
-    box-shadow: 2px 2px 2px black;
-}
-
-.Photo p
-{
-	text-align: center;
-}
-
-.Photo
-{
-	margin: 5em;
-}
-
 h2
 {
     color: black;
@@ -103,71 +203,35 @@ h2 + a
 	color: #47BD6C;
 }
 
-.Contact p
-{
-	margin-left: 10%;
-	overflow: auto;
-}
-
-.Contact
-{
-	margin-top: 7em;
-}
-
-.Apropos p
-{
-	margin-left: 10%;
-	margin-right: 10%;
-	text-align: justify;
-}
-
-.Loisirs p
-{
-	text-align: center;
-}
-
-.Loisirs
-{
-	margin-top: 95%;
-}
-
 .dates11 li
 {
-   list-style-image: url(puce.png);
+   list-style-image: url(Images/puce.png);
 }
 
-.dates11, .dates21, .dates31, .dates41
+.dates1, .dates11
 {
-	width: 20em;
+	width: 30%;
 }
-.dates12, .dates22, .dates32, .dates42
+.dates2
 {
-	width: 50em;
 	margin-top: 1em;
 }
 
-h3
-{
-	background-color: black;
-	text-align: center;
-	color: #47BD6C;
-}
-
-section
+main section
 {
     display: inline-block;
     vertical-align: top;
     width: 100%;
-    margin-right: 5%;
+    padding-right: 5%;
 }
 
-.expérience
+.experience
 {
 	display: flex;
 	flex-direction: column;
 }
 
-.dates1, .dates2, .dates3, .dates4
+.dates
 {
 	display: flex;
 	flex-direction: row; 
@@ -185,53 +249,20 @@ section
 	flex-direction: row;
 	margin-left: 10%;
 }
+
 .Reco2
 {
-	margin-left: 35%;
+	margin-left: 10%;
 }
 
-#contenu
+.Reco1 p, .Reco2 p
 {
-    display: flex;
-    flex-direction: top;
-    width: 100%;
-    flex-wrap: nowrap;
+	text-align: left;
 }
 
-.element1:nth-child(1)
-{
-	background-color: #47BD6C;
-	flex:1;
-}
-
-.element2:nth-child(2)
-{
-	flex:2;
-}
-
-i.fas
+.fa-briefcase, .fa-graduation-cap, .fa-edit
 {
 	color: #47BD6C;
-}
-
-i.fa-book
-{
-	color: black;
-	font-size: 2em;
-}
-
-i.fa-music
-{
-	color: black;
-	font-size: 2em;
-	margin-left: 10%;
-}
-
-i.fa-swimmer
-{
-	color: black;
-	font-size: 2em;
-	margin-left: 10%;
 }
 
 .expérience
@@ -239,12 +270,37 @@ i.fa-swimmer
 	display: flex;
 }
 
-@media screen and (max-width: 1024px)
+
+@media screen and (max-width: 720px)
 {
+
+header
+{
+	display: flex;
+	flex-direction: column;
+	width: auto;
+}
+
+.Photo p
+{
+	text-align: center;
+	margin: 0%;
+}
+
+h1,h1 + p
+{
+	text-align: center;
+}
+
+.titre
+{
+	width: 100%
+}
 
 body
 {
-	padding: 0%;
+	width: auto;
+	margin: none;
 }
 
 section
@@ -262,7 +318,40 @@ section
     flex-direction: column-reverse;
 }
 
-#Photo
+.Photo
 {
-	margin-left: 40%;
+	width: 100%
+}
+
+aside, main
+{
+	width: 100%;
+}
+
+.dates
+{
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 8px #90A4AE;
+    border-radius: 5px;
+}
+
+.dates1, .dates11
+{
+	width: 100%;
+}
+
+.dates2
+{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 0%;
+}
+
+img
+{
+	margin: 10%;
+}
 }
