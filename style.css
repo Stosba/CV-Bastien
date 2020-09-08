@@ -59,9 +59,8 @@ p
 img
 {
     margin: 25%;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 50%;
-    box-shadow: 2px 2px 2px black;
     width: 150px;
     height: 150px;
     object-fit: contain;
