@@ -1,14 +1,15 @@
 body
 {
-    background-image: url('Images/greyzz.png');
+    background-color: #F9F9F9;
     width: 940px;
-    border: 1px solid #47BD6C;
+    border: 1px solid #A7D68B;
  }
 
 *
 {
     font-family: 'Ubuntu', 'Arial', sans-serif;
     line-height: 1.5;
+    color: #444;
 }
 
 /*En-tête*/
@@ -34,6 +35,7 @@ h1
 {
 	font-size: 3em;
 	margin-top: 15%;
+	color: #444;
 }
 
 h1 + p
@@ -43,7 +45,7 @@ h1 + p
 
 .bordure_st
 {
-	border-bottom: 2px solid #47BD6C;
+	border-bottom: 2px solid #A7D68B;
 }
 
 p
@@ -53,13 +55,13 @@ p
 
 .prenom
 {
-	color: #47BD6C;
+	color: #A7D68B;
 }
 
 img
 {
     margin: 25%;
-    border: 3px solid black;
+    border: 3px solid #444;
     border-radius: 50%;
     width: 150px;
     height: 150px;
@@ -68,7 +70,7 @@ img
 
 .Photo
 {
-	background-color: #47BD6C;
+	background-color: #A7D68B;
 	width: 35%;
 }
 
@@ -93,7 +95,7 @@ aside section:nth-child(2)
 
 aside
 {
-	background-color: #47BD6C;
+	background-color: #A7D68B;
 	width: 35%;
 }
 
@@ -110,6 +112,11 @@ aside
 	text-align: justify;
 }
 
+.Apropos
+{
+	height: 65em;
+}
+
 .Loisirs
 {
 	margin-top: 1%;
@@ -121,9 +128,9 @@ aside
 
 h3
 {
-	background-color: black;
+	background-color: #444;
 	text-align: center;
-	color: #47BD6C;
+	color: #A7D68B;
 }
 
 .icon 
@@ -131,7 +138,7 @@ h3
     width: 70px;
     height: 70px;
     font-size: 25px;
-    border: 2px solid black;
+    border: 2px solid #444;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -139,24 +146,11 @@ h3
     margin: 10px;
 }
 
-i.fa-book
+i.fa-book, .fa-music, .fa-swimmer
 {
-	color: black;
+	color: #444;
 	font-size: 2em;
 }
-
-i.fa-music
-{
-	color: black;
-	font-size: 2em;
-}
-
-i.fa-swimmer
-{
-	color: black;
-	font-size: 2em;
-}
-
 
 /*main*/
 
@@ -173,33 +167,33 @@ ul
 
 li::before 
 {
-	content: "•"; color: #47BD6C
+	content: "•"; color: #A7D68B
 }
 
 li::before 
 {
-	content: "•"; color: #47BD6C;
+	content: "•"; color: #A7D68B;
   	display: inline-block; width: 1em;
   	margin-left: -1em
 }
 
 li
 {
-	color: black;
+	color: #444;
 	margin:2em;
 }
 
 h2
 {
-    color: black;
-    border-bottom: 2px solid #47BD6C;
+    color: #444;
+    border-bottom: 2px solid #A7D68B;
     margin-left: 5%;
 }
 
 h2 + a
 {
 	border: none;
-	color: #47BD6C;
+	color: #A7D68B;
 }
 
 .dates11 li
@@ -246,22 +240,18 @@ main section
 {
 	display: flex;
 	flex-direction: row;
-	margin-left: 10%;
 }
 
-.Reco2
-{
-	margin-left: 10%;
-}
-
-.Reco1 p, .Reco2 p
+.Reco1, .Reco2
 {
 	text-align: left;
+	width: 50%;
+	margin-left: 10%;
 }
 
 .fa-briefcase, .fa-graduation-cap, .fa-edit
 {
-	color: #47BD6C;
+	color: #A7D68B;
 }
 
 .expérience
@@ -327,7 +317,7 @@ aside, main
 	width: 100%;
 }
 
-.dates
+.dates, .Recommandations
 {
 	display: flex;
 	flex-direction: column;
@@ -335,6 +325,12 @@ aside, main
     padding: 10px;
     box-shadow: 0px 0px 8px #90A4AE;
     border-radius: 5px;
+}
+
+.Reco1, .Reco2
+{
+	margin-left: 30%;
+	width: 100%;
 }
 
 .dates1, .dates11
@@ -352,5 +348,16 @@ aside, main
 img
 {
 	margin: 10%;
+}
+
+.Apropos
+{
+	height: auto;
+}
+
+.Contact p
+{
+	text-align: center;
+	margin: 0%;
 }
 }
