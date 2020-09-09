@@ -1,7 +1,7 @@
 body
 {
     background-color: #F9F9F9;
-    width: 940px;
+    width: 992px;
     border: 1px solid #A7D68B;
  }
 
@@ -259,6 +259,35 @@ main section
 	display: flex;
 }
 
+/*Résolution tablette*/
+
+@media screen and (max-width: 991px)
+{
+
+body
+{
+	width: 720px;
+}
+
+.Photo img
+{
+	margin-left: 20%;
+}
+
+.Apropos
+{
+	margin-bottom: 15em;
+}
+
+.dates1, .dates11
+{
+	width: 40%;
+}
+
+
+}
+
+/*Résolution mobile*/
 
 @media screen and (max-width: 720px)
 {
@@ -270,10 +299,9 @@ header
 	width: auto;
 }
 
-.Photo p
+.Photo img
 {
-	text-align: center;
-	margin: 0%;
+	margin-left: 35%;
 }
 
 h1,h1 + p
@@ -288,7 +316,7 @@ h1,h1 + p
 
 body
 {
-	width: auto;
+	width: 100%;
 	margin: none;
 }
 
@@ -353,6 +381,7 @@ img
 .Apropos
 {
 	height: auto;
+	margin-bottom: 0%;
 }
 
 .Contact p
