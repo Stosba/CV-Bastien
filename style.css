@@ -3,6 +3,7 @@ body
     background-color: #F9F9F9;
     width: 992px;
     border: 1px solid #A7D68B;
+    margin: auto;
  }
 
 *
@@ -89,14 +90,14 @@ img
 aside section:nth-child(2) 
 {
     flex-grow: 1;
-    display: flex;
-    flex-direction: column;
 }
 
 aside
 {
 	background-color: #A7D68B;
 	width: 35%;
+	flex-direction: column;
+	display: flex;
 }
 
 .Contact p
@@ -110,11 +111,6 @@ aside
 	margin-left: 10%;
 	margin-right: 10%;
 	text-align: justify;
-}
-
-.Apropos
-{
-	height: 65em;
 }
 
 .Loisirs
@@ -157,7 +153,6 @@ i.fa-book, .fa-music, .fa-swimmer
 main
 {
 	width: 63%;
-	padding-right: 2%;
 }
 
 ul 
@@ -215,7 +210,6 @@ main section
     display: inline-block;
     vertical-align: top;
     width: 100%;
-    padding-right: 5%;
 }
 
 .experience
@@ -283,8 +277,6 @@ body
 {
 	width: 40%;
 }
-
-
 }
 
 /*Résolution mobile*/
@@ -324,7 +316,7 @@ section
 {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 100%;
     margin: auto;
 }
 
@@ -358,7 +350,7 @@ aside, main
 .Reco1, .Reco2
 {
 	margin-left: 30%;
-	width: 100%;
+	width: auto;
 }
 
 .dates1, .dates11
