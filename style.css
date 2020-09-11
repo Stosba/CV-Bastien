@@ -113,11 +113,6 @@ aside
 	text-align: justify;
 }
 
-.Apropos
-{
-	height: 65em;
-}
-
 .Loisirs
 {
 	margin-top: 1%;
@@ -282,8 +277,6 @@ body
 {
 	width: 40%;
 }
-
-
 }
 
 /*Résolution mobile*/
@@ -323,7 +316,7 @@ section
 {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 100%;
     margin: auto;
 }
 
