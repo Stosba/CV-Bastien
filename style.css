@@ -175,7 +175,7 @@ li::before
 li
 {
 	color: #444;
-	margin:2em;
+	margin:1em;
 }
 
 h2
@@ -198,11 +198,11 @@ h2 + a
 
 .dates1, .dates11
 {
-	width: 30%;
+	width: 35%;
 }
 .dates2
 {
-	margin-top: 1em;
+	width: 65%;
 }
 
 main section
