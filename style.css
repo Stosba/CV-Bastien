@@ -261,7 +261,7 @@ main section
 	display: flex;
 }
 
-/*Résolution tablette*/
+/*Résolution tablette
 
 @media screen and (max-width: 991px)
 {
@@ -286,8 +286,8 @@ body
 	width: 40%;
 }
 }
-
-/*Résolution mobile*/
+*/
+/*Résolution mobile
 
 @media screen and (max-width: 720px)
 {
@@ -391,3 +391,4 @@ img
 	margin: 0%;
 }
 }
+*/
