@@ -1,7 +1,7 @@
 body
 {
     background-color: #F9F9F9;
-    width: 99%;
+    width: 100%;
     border: 1px solid #4DB6AC;
     margin: auto;
  }
@@ -61,7 +61,7 @@ p
 
 img
 {
-	margin-left: 33%;
+	margin-left: 15%;
 	margin-top: 15%;
     border: 3px solid #444;
     border-radius: 50%;
