@@ -1,7 +1,7 @@
 body
 {
     background-color: #F9F9F9;
-    width: 90%;
+    width: 99%;
     border: 1px solid #4DB6AC;
     margin: auto;
  }
@@ -9,7 +9,7 @@ body
 *
 {
     font-family: 'Ubuntu', 'Arial', sans-serif;
-    line-height: 1.5;
+    line-height: 1.2;
     color: #444;
 }
 
@@ -103,21 +103,22 @@ aside
 
 .Contact p
 {
-	margin-left: 10%;
+	margin-left: 5%;
 	overflow: auto;
 }
 
 .Apropos p
 {
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+	line-height: 1.5;
 	text-align: justify;
 }
 
 .competences p
 {
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 	text-align: left;
 }
 
