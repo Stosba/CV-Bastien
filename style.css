@@ -5,7 +5,6 @@ body
     margin: auto; 
     background-color: #F9F9F9;
     width: 100%;
-    border: 1px solid #4DB6AC;
  }
 
 *
@@ -13,6 +12,11 @@ body
     font-family: 'Ubuntu', 'Arial', sans-serif;
     line-height: 1.2;
     color: #444;
+}
+
+a
+{
+	text-decoration: none;
 }
 
 /*En-tête*/
@@ -115,7 +119,7 @@ aside
 	margin-left: 5%;
 	margin-right: 5%;
 	line-height: 1.5;
-	fvrdcgdreszqa	-align: justify;
+	text-align: justify;
 }
 
 .competences p
