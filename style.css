@@ -1,10 +1,9 @@
 body
 {
 	width: 21cm;
-	height: 29.7cm;
     margin: auto; 
     background-color: #F9F9F9;
-    width: 100%;
+	border: 1px solid #4DB6AC;
  }
 
 *
@@ -58,7 +57,7 @@ h1 + p
 
 p
 {
-	text-align: justify;
+	text-align: left;
 }
 
 .prenom
@@ -69,7 +68,7 @@ p
 img
 {
 	margin-top: 10%;
-	margin-left: 35%;
+	margin-left: 25%;
     border: 3px solid #444;
     border-radius: 50%;
 	width: 150px;
@@ -232,6 +231,11 @@ main section
 {
 	display: flex;
 	flex-direction: column;
+}
+
+.experience p
+{
+	text-align: justify;
 }
 
 .dates
